@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>Resource/images/Arrowbullet.png</file>
+        <file>Resource/images/Arrowtower0.png</file>
+        <file>Resource/images/Arrowtower1.png</file>
+        <file>Resource/images/Arrowtower2.png</file>
+        <file>Resource/images/Backbutton.png</file>
+        <file>Resource/images/Button.png</file>
+        <file>Resource/images/Canonbullet.png</file>
+        <file>Resource/images/Canontower0.jpg</file>
+        <file>Resource/images/Canontower1.png</file>
+        <file>Resource/images/Canontower2.png</file>
+        <file>Resource/images/Deletetower.png</file>
+        <file>Resource/images/Demonbullet.png</file>
+        <file>Resource/images/Demontower0.png</file>
+        <file>Resource/images/Demontower1.png</file>
+        <file>Resource/images/Demontower2.png</file>
+        <file>Resource/images/Enemy1.png</file>
+        <file>Resource/images/Enemy2.png</file>
+        <file>Resource/images/Enemy3.png</file>
+        <file>Resource/images/Enemy4.png</file>
+        <file>Resource/images/Enemy5.png</file>
+        <file>Resource/images/level1.png</file>
+        <file>Resource/images/level2.png</file>
+        <file>Resource/images/level3.png</file>
+        <file>Resource/images/level4.png</file>
+        <file>Resource/images/levelbutton.png</file>
+        <file>Resource/images/levellocked.png</file>
+        <file>Resource/images/levelselectmenu.jpg</file>
+        <file>Resource/images/Lockbutton.png</file>
+        <file>Resource/images/Magicbullet.png</file>
+        <file>Resource/images/Magictower0.png</file>
+        <file>Resource/images/Magictower1.png</file>
+        <file>Resource/images/Magictower2.png</file>
+        <file>Resource/images/MainMenu.jpg</file>
+        <file>Resource/images/Maintower0.png</file>
+        <file>Resource/images/Maintower1.png</file>
+        <file>Resource/images/Maintower2.png</file>
+        <file>Resource/images/Maintower3.png</file>
+        <file>Resource/images/Maintower4.png</file>
+        <file>Resource/images/Maintower5.png</file>
+        <file>Resource/images/money2.png</file>
+        <file>Resource/images/StartButton.png</file>
+        <file>Resource/images/title.png</file>
+        <file>Resource/images/towerbase.png</file>
+        <file>Resource/images/Upgrade.png</file>
+        <file>Resource/images/Window1.jpeg</file>
+        <file>Resource/images/Window2.jpeg</file>
+        <file>Resource/images/Window3.jpeg</file>
+        <file>Resource/images/Window4.jpeg</file>
+        <file>Resource/images/windowicon.jpg</file>
+        <file>config/Info.plist</file>
+        <file>config/TowersPosition.plist</file>
+        <file>config/Waves.plist</file>
+    </qresource>
+</RCC>
