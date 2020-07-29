@@ -48,16 +48,15 @@ void AudioPlayer::playSound(SoundType soundType)
     static const QUrl mediasUrls[] =
     {
         QUrl::fromLocalFile(s_curDir + "/tower_place.mp3"),
-        QUrl::fromLocalFile(s_curDir + "/life_lose.mp3"),
         QUrl::fromLocalFile(s_curDir + "/normalBullet.mp3"),
         QUrl::fromLocalFile(s_curDir + "/iceBullet.mp3"),
         QUrl::fromLocalFile(s_curDir + "/laserBullet.mp3"),
         QUrl::fromLocalFile(s_curDir + "/fireBullet.mp3"),
-        QUrl::fromLocalFile(s_curDir + "/normalEnemyDie.mp3"),
-        QUrl::fromLocalFile(s_curDir + "/iceEnemyDie.mp3"),
-        QUrl::fromLocalFile(s_curDir + "/fastEnemyDie.mp3"),
-        QUrl::fromLocalFile(s_curDir + "/bossEnemyDie.mp3"),
-        QUrl::fromLocalFile(s_curDir + "/cry.mp3"),
+        QUrl::fromLocalFile(s_curDir + "/EnemyDestroySound1.mp3"),
+        QUrl::fromLocalFile(s_curDir + "/EnemyDestroySound2.mp3"),
+        QUrl::fromLocalFile(s_curDir + "/EnemyDestroySound3.mp3"),
+        QUrl::fromLocalFile(s_curDir + "/EnemyDestroySound4.mp3"),
+        QUrl::fromLocalFile(s_curDir + "/bossEnemyDie.mp3")
     };
     static QMediaPlayer player;
 
