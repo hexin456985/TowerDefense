@@ -3,8 +3,7 @@
 
 #include <QMainWindow>
 #include <QList>
-#include "../View/Tower.h"
-#include "GameWindow.h"
+#include "../Model/Game.h"
 
 class LevelSelect: public QMainWindow
 {
