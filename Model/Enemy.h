@@ -10,7 +10,6 @@
 
 class WayPoint;
 class QPainter;
-class MainWindow;
 class Tower;
 class GameWindow;
 class Bullet;
