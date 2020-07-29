@@ -18,31 +18,33 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     App/main.cpp \
-    Common/Button.cpp \
     Common/EnemyPath.cpp \
     Common/Music.cpp \
-    Model/mainwindow.cpp \
-    View/Bullet.cpp \
-    View/Enemy.cpp \
-    View/Tower.cpp \
-    View/TowerPosition.cpp \
-    Viewmodel/GameWindow.cpp \
+    Common/plistreader.cpp \
+    Common/utility.cpp \
+    Model/Bullet.cpp \
+    Model/Enemy.cpp \
+    Model/Game.cpp \
+    Model/Tower.cpp \
+    View/mainwindow.cpp \
+    Viewmodel/Button.cpp \
     Viewmodel/LevelSelect.cpp
 
 HEADERS += \
-    Common/Button.h \
     Common/EnemyPath.h \
     Common/Music.h \
-    Model/mainwindow.h \
-    View/Bullet.h \
-    View/Enemy.h \
-    View/Tower.h \
-    View/TowerPosition.h \
-    Viewmodel/GameWindow.h \
+    Common/plistreader.h \
+    Common/utility.h \
+    Model/Bullet.h \
+    Model/Enemy.h \
+    Model/Game.h \
+    Model/Tower.h \
+    View/mainwindow.h \
+    Viewmodel/Button.h \
     Viewmodel/LevelSelect.h
 
 FORMS += \
-    Model/mainwindow.ui
+    View/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -51,3 +53,32 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
+
+DISTFILES += \
+    Resource/music/EnemyDestorySound1.mp3 \
+    Resource/music/EnemyDestorySound2.mp3 \
+    Resource/music/EnemyDestorySound3.mp3 \
+    Resource/music/EnemyDestorySound4.mp3 \
+    Resource/music/EnemyDestroySound1.mp3 \
+    Resource/music/EnemyDestroySound2.mp3 \
+    Resource/music/EnemyDestroySound3.mp3 \
+    Resource/music/EnemyDestroySound4.mp3 \
+    Resource/music/First Page.mp3 \
+    Resource/music/Lose.mp3 \
+    Resource/music/Win.mp3 \
+    Resource/music/bgmusic2.mp3 \
+    Resource/music/bossEnemyDie.mp3 \
+    Resource/music/easy.mp3 \
+    Resource/music/fastEnemyDie.mp3 \
+    Resource/music/fireBullet.mp3 \
+    Resource/music/fireEnemyDie.mp3 \
+    Resource/music/hard.mp3 \
+    Resource/music/iceBullet.mp3 \
+    Resource/music/iceEnemyDie.mp3 \
+    Resource/music/laserBullet.mp3 \
+    Resource/music/levelmusic.mp3 \
+    Resource/music/life_lose.mp3 \
+    Resource/music/mainmusic.mp3 \
+    Resource/music/normalBullet.mp3 \
+    Resource/music/normalEnemyDie.mp3 \
+    Resource/music/tower_place.mp3
